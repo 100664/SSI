@@ -1,0 +1,1 @@
+# Relatório do Guião da Semana 6

@@ -1,0 +1,10 @@
+[Unit]
+Description=Serviço do Daemon do Usuário
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/home/martimr/Desktop/SSI/Projeto2/bin/user
+
+[Install]
+WantedBy=multi-user.target

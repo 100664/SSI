@@ -1,0 +1,8 @@
+[Unit]
+Description=DAEMON
+
+[Service]
+ExecStart=/home/nuno/Desktop/ssi/S10/martim_r
+
+[Install]
+WantedBy=multi-user.target
